@@ -40,7 +40,7 @@ int main() {
     p2[0] = 0;
     p2[1] = 1;
     p2[2] = 2;
-    cout << p2[1000] << endl;
+    cout << p2[2] << endl;
     delete[]p2;//释放内存
     p2 = NULL;
 
