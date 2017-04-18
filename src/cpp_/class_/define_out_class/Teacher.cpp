@@ -4,6 +4,7 @@
 
 #include "Teacher.h"
 #include <iostream>
+
 using namespace std;
 
 /**
@@ -18,6 +19,24 @@ using namespace std;
  * 数据成员的封装
  * 授课teach
  */
+
+
+/** *************************** 构造函数 ******************************* */
+Teacher::Teacher() {
+    str_name = "Teacher_default";
+    i_age = 10;
+    cout << "Teacher()" << endl;
+}
+
+Teacher::Teacher(string _name, int _age) {
+    str_name = _name;
+    i_age = _age;
+    cout << "Teacher(string _name, int _age)" << endl;
+}
+
+
+/** *************************** 其他函数 ******************************* */
+
 void Teacher::setName(string _name) {
     str_name = _name;
 }

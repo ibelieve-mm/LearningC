@@ -27,6 +27,14 @@ using namespace std;
 class Teacher {
 public:
 
+    /** *************************** 构造函数 ******************************* */
+    Teacher();
+
+    Teacher(string name, int age = 100);
+
+
+    /** *************************** 其他函数 ******************************* */
+
     void setName(string _name);
 
     string getName();
