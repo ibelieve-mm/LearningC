@@ -8,34 +8,40 @@
 using namespace std;
 
 /**
- * å®šä¹‰ä¸€ä¸ªTeacherç±»ï¼Œè¦æ±‚åˆ†åˆ«é‡‡ç”¨åŒæ–‡ä»¶ç±»å¤–å®šä¹‰å’Œåˆ†æ–‡ä»¶ç±»å¤–å®šä¹‰æ–¹å¼å®Œæˆ
+ * ¶¨ÒåÒ»¸öTeacherÀà£¬ÒªÇó·Ö±ð²ÉÓÃÍ¬ÎÄ¼þÀàÍâ¶¨ÒåºÍ·ÖÎÄ¼þÀàÍâ¶¨Òå·½Ê½Íê³É
  *
- * æ•°æ®æˆå‘˜
- * 1. å§“å
- * 2. å¹´é¾„
- * 3. æ€§åˆ«
+ * Êý¾Ý³ÉÔ±
+ * 1. ÐÕÃû
+ * 2. ÄêÁä
+ * 3. ÐÔ±ð
  *
- * æˆå‘˜å‡½æ•°
- * æ•°æ®æˆå‘˜çš„å°è£…
- * æŽˆè¯¾teach
+ * ³ÉÔ±º¯Êý
+ * Êý¾Ý³ÉÔ±µÄ·â×°
+ * ÊÚ¿Îteach
  */
 
 
-/** *************************** æž„é€ å‡½æ•° ******************************* */
+/** *************************** ¹¹Ôìº¯Êý ******************************* */
 Teacher::Teacher() {
     str_name = "Teacher_default";
     i_age = 10;
     cout << "Teacher()" << endl;
 }
 
-Teacher::Teacher(string _name, int _age) {
-    str_name = _name;
-    i_age = _age;
-    cout << "Teacher(string _name, int _age)" << endl;
+// Ê¹ÓÃ³õÊ¼»¯ÁÐ±íµÄ·½Ê½¶Ô¹¹Ôìº¯Êý½øÐÐ³õÊ¼»¯
+Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
+    cout << "Teacher(string _name, int _age)¡ª¡ª³õÊ¼»¯ÁÐ±í" << endl;
 }
 
+// Ê¹ÓÃ³£¹æ·½Ê½¶Ô¹¹Ôìº¯Êý½øÐÐ³õÊ¼»¯
+//Teacher::Teacher(string _name, int _age) {
+//    str_name = _name;
+//    i_age = _age;
+//    cout << "Teacher(string _name, int _age)" << endl;
+//}
 
-/** *************************** å…¶ä»–å‡½æ•° ******************************* */
+
+/** *************************** ÆäËûº¯Êý ******************************* */
 
 void Teacher::setName(string _name) {
     str_name = _name;
