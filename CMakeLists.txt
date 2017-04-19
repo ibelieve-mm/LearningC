@@ -3,5 +3,5 @@ project(LearningC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp src/cpp_/class_/define_out_class/Teacher.h src/cpp_/class_/define_out_class/Teacher.cpp)
+set(SOURCE_FILES main.cpp src/cpp_/class_/define_out_class/Teacher.h src/cpp_/class_/define_out_class/Teacher.cpp src/cpp_/class_/class_array/Coordinate.h src/cpp_/class_/class_array/Coordinate.cpp)
 add_executable(LearningC ${SOURCE_FILES})

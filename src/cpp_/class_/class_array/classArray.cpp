@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/class_array/Coordinate.h"
+#include "Coordinate.h"
 
 using namespace std;
 
