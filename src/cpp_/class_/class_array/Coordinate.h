@@ -7,14 +7,16 @@
 
 #endif //LEARNINGC_COORDINATE_H
 
-class Coordinate {
-public:
+namespace class_array {
+    class Coordinate {
+    public:
 
-    Coordinate();
+        Coordinate();
 
-    ~Coordinate();
+        ~Coordinate();
 
-public  :
-    int _iX;
-    int _iY;
-};
+    public:
+        int _iX;
+        int _iY;
+    };
+}

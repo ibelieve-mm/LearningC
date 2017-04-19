@@ -5,12 +5,12 @@
 #include "Coordinate.h"
 
 using namespace std;
+using namespace class_array;
 
 Coordinate::Coordinate() {
-    cout << "Coordinate()" << endl;
+    cout << "Coordinate11()" << endl;
 }
 
 Coordinate::~Coordinate() {
-    cout << "~Coordinate()" << endl;
-
+    cout << "Coordinate1111()" << endl;
 }

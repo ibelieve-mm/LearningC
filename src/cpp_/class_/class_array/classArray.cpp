@@ -1,15 +1,16 @@
 /**
- * Descriptions£º¶ÔÏóÊý×é
+ * Descriptionsï¼šå¯¹è±¡æ•°ç»„
  * <p>
- * Author£ºChenME
- * Date£º2017/4/19
- * Email£ºibelieve1210@163.com
+ * Authorï¼šChenME
+ * Dateï¼š2017/4/19
+ * Emailï¼šibelieve1210@163.com
  */
 
 #include <iostream>
-#include "Coordinate.h"
+#include "src/cpp_/class_/class_array/Coordinate.h"
 
 using namespace std;
+using namespace class_array;
 
 int main() {
 
@@ -26,24 +27,24 @@ int main() {
     cout << endl;
 
     Coordinate *p = new Coordinate[3];
-    //¶ÔµÚ1¸öÔªËØ¸³Öµ
+    //å¯¹ç¬¬1ä¸ªå…ƒç´ èµ‹å€¼
     p->_iX = 101;
     p[0]._iY = 102;
-    cout <<"µÚÒ»¸öÖ¸ÕëµÄµØÖ·£º"<<p<<endl;
+    cout <<"ç¬¬ä¸€ä¸ªæŒ‡é’ˆçš„åœ°å€ï¼š"<<p<<endl;
 
-    //¶ÔµÚ2¸öÔªËØ¸³Öµ
+    //å¯¹ç¬¬2ä¸ªå…ƒç´ èµ‹å€¼
     p++;
     p->_iX = 103;
     p[0]._iY = 104;
 
-    //¶ÔµÚ3¸öÔªËØ¸³Öµ
+    //å¯¹ç¬¬3ä¸ªå…ƒç´ èµ‹å€¼
     p[1]._iX = 105;
     p++;
     p->_iY = 106;
 
     cout <<endl;
     p -= 2;
-    cout <<"´ËÊ±Ö¸Õë¿ªÊ¼µÄµØÖ·£º"<<p<<endl;
+    cout <<"æ­¤æ—¶æŒ‡é’ˆå¼€å§‹çš„åœ°å€ï¼š"<<p<<endl;
     for (int i = 0; i < 3; i++) {
         cout << "p[" << i << "]=(" << p->_iX << "," << p->_iY << ")" << endl;
         p++;
@@ -51,7 +52,7 @@ int main() {
     cout <<endl;
 
     p-=3;
-    cout <<"´ËÊ±Ö¸Õë¿ªÊ¼µÄµØÖ·£º"<<p<<endl;
+    cout <<"æ­¤æ—¶æŒ‡é’ˆå¼€å§‹çš„åœ°å€ï¼š"<<p<<endl;
     delete []p;
     p = NULL;
 
