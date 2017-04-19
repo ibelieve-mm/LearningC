@@ -22,15 +22,12 @@ using namespace std;
 
 
 /** *************************** 构造函数 ******************************* */
+
+// 无参的构造函数
 Teacher::Teacher() {
     str_name = "Teacher_default";
     i_age = 10;
     cout << "Teacher()" << endl;
-}
-
-// 使用初始化列表的方式对构造函数进行初始化
-Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
-    cout << "Teacher(string _name, int _age)--初始化列表" << endl;
 }
 
 // 使用常规方式对构造函数进行初始化
@@ -40,11 +37,19 @@ Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
 //    cout << "Teacher(string _name, int _age)" << endl;
 //}
 
+// 使用初始化列表的方式对构造函数进行初始化
+Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
+    cout << "Teacher(string _name, int _age)--初始化列表" << endl;
+}
+
 
 // copy构造函数（如果不写，系统自动创建一个默认的copy构造函数）
 Teacher::Teacher(const Teacher &t) {
     cout << "Teacher(const Teacher &t)" << endl;
 }
+
+
+/** *************************** 析构函数 ******************************* */
 
 
 /** *************************** 其他函数 ******************************* */
