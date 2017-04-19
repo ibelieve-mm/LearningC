@@ -30,7 +30,7 @@ Teacher::Teacher() {
 
 // 使用初始化列表的方式对构造函数进行初始化
 Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
-    cout << "Teacher(string _name, int _age)——初始化列表" << endl;
+    cout << "Teacher(string _name, int _age)--初始化列表" << endl;
 }
 
 // 使用常规方式对构造函数进行初始化
