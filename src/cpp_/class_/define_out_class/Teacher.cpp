@@ -8,32 +8,32 @@
 using namespace std;
 
 /**
- * ����һ��Teacher�࣬Ҫ��ֱ����ͬ�ļ����ⶨ��ͷ��ļ����ⶨ�巽ʽ���
+ * 定义一个Teacher类，要求分别采用同文件类外定义和分文件类外定义方式完成
  *
- * ���ݳ�Ա
- * 1. ����
- * 2. ����
- * 3. �Ա�
+ * 数据成员
+ * 1. 姓名
+ * 2. 年龄
+ * 3. 性别
  *
- * ��Ա����
- * ���ݳ�Ա�ķ�װ
- * �ڿ�teach
+ * 成员函数
+ * 数据成员的封装
+ * 授课teach
  */
 
 
-/** *************************** ���캯�� ******************************* */
+/** *************************** 构造函数 ******************************* */
 Teacher::Teacher() {
     str_name = "Teacher_default";
     i_age = 10;
     cout << "Teacher()" << endl;
 }
 
-// ʹ�ó�ʼ���б��ķ�ʽ�Թ��캯�����г�ʼ��
+// 使用初始化列表的方式对构造函数进行初始化
 Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
-    cout << "Teacher(string _name, int _age)������ʼ���б�" << endl;
+    cout << "Teacher(string _name, int _age)——初始化列表" << endl;
 }
 
-// ʹ�ó��淽ʽ�Թ��캯�����г�ʼ��
+// 使用常规方式对构造函数进行初始化
 //Teacher::Teacher(string _name, int _age) {
 //    str_name = _name;
 //    i_age = _age;
@@ -41,7 +41,7 @@ Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
 //}
 
 
-/** *************************** �������� ******************************* */
+/** *************************** 其他函数 ******************************* */
 
 void Teacher::setName(string _name) {
     str_name = _name;

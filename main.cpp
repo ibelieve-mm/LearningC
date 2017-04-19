@@ -1,110 +1,33 @@
 /**
- * Descriptions£ºÎ»ÔËËã
+ * Descriptionsï¼šç±»å¤–å®šä¹‰(åˆ†æ–‡ä»¶)
  * <p>
- * Author£ºChenME
- * Date£º2017/4/16
- * Email£ºibelieve1210@163.com
- */
-
-/**
- * & °´Î»Óë
- * | °´Î»»ò
- * ^ °´Î»Òì»ò
- * ~ °´Î»È¡·´
- * << ×óÒÆ
- * >> ÓÒÒÆ
+ * Authorï¼šChenME
+ * Dateï¼š2017/4/18
+ * Emailï¼šibelieve1210@163.com
  */
 
 #include <iostream>
-
-void andBitOperation();
-
-void orBitOperation();
-
-void xorBitOperation();
-
-void leftMove();
+#include "src/cpp_/class_/define_out_class/Teacher.h"
 
 using namespace std;
 
-
 int main() {
 
-    //ÓëÔËËã
-    andBitOperation();
+    Teacher t;//è°ƒç”¨æ— å‚çš„æ„é€ å‡½æ•°
+    t.setName("Jim");
+    t.setGender("M");
+    t.setAge(30);
 
-    // °´Î»»ò
-    orBitOperation();
+    cout << "name:" + t.getName() + ", gender:" + t.getGender() + ", age:" << t.getAge() << endl;
+    t.teach();
 
-    // °´Î»Òì»ò
-    xorBitOperation();
+    cout << endl;
+    Teacher t2("Merry", 21);//è°ƒç”¨æœ‰å‚çš„æ„é€ å‡½æ•°
+    cout << "name:" + t2.getName() + ", age:" << t2.getAge() << endl;
 
-    //×óÒÆÔËËã
-    leftMove();
-
+    cout <<endl;
+    Teacher t3("James");
+    cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
 
     return 0;
-}
-
-void leftMove() {//¹æÔò£¬¸ßÎ»¶ªÆú£¬µÍÎ»²¹0
-
-    cout << "\n×óÒÆÔËËã£º" << endl;
-
-    // 1. ½«Ò»¸öÊıÀ©´ó2µÄn´Î·½±¶
-    int a = 3;  //00000000 00000000 00000000 00000011
-    cout << "a×óÒÆÇ°£º" << a << endl;
-    a = a << 4; //00000000 00000000 00000000 00110000
-    cout << "a×óÒÆ4Î»ºó£º" << a << endl;
-}
-
-void xorBitOperation() {
-
-    cout << "\n°´Î»Òì»òÔËËã£º" << endl;
-
-    int a = 9;      //00000000 00000000 00000000 00001001
-    int b = 5;      //00000000 00000000 00000000 00000101
-    int c = a ^b;   //00000000 00000000 00000000 00001100
-    cout << a << " ^ " << b << " µÄ½á¹ûÊÇ£º" << c << endl;
-
-    // 1. ¶¨Î»·­×ª
-    cout << (a ^ 0xFF) << endl;
-
-    // 2. ÊıÖµ½»»»
-    cout << "ÊıÖµ½»»»Ç°£ºa=" << a << ", b=" << b << endl;
-    a = a ^ b;
-    b = b ^ a;
-    a = a ^ b;
-    cout << "ÊıÖµ½»»»ºó£ºa=" << a << ", b=" << b << endl;
-}
-
-void orBitOperation() {
-
-    cout << "\n°´Î»»òÔËËã£º" << endl;
-
-    int a = 9;      //00000000 00000000 00000000 00001001
-    int b = 5;      //00000000 00000000 00000000 00000101
-    int c = a | b;  //00000000 00000000 00000000 00001101
-    cout << a << " | " << b << " µÄ½á¹ûÊÇ£º" << c << endl;
-
-    // 1. ÉèÖÃÒ»¸öÊıµÄÖ¸¶¨Î»
-    cout << (a | 0xFF) << endl;
-}
-
-void andBitOperation() {
-
-    cout << "\n°´Î»ÓëÔËËã£º" << endl;
-
-    int a = 4;      //00000000 00000000 00000000 00000100
-    int b = 7;      //00000000 00000000 00000000 00000111
-    int c = a & b;  //00000000 00000000 00000000 00000100
-    cout << a << " & " << b << " µÄ½á¹ûÊÇ£º" << c << endl;
-
-    // 1. Ñ¸ËÙÇåÁã
-    cout << (a & 0) << endl;
-
-    // 2. ±£ÁôÊı¾İµÄÖ¸¶¨Î»
-    cout << (b & 2) << endl;
-
-    // 3. ÅĞ¶ÏÆæÅ¼ĞÔ£¨ÈÃÒ»¸öÊı&1£¬Èç¹û½á¹ûÎª1£¬¸ÃÊıÎªÆæÊı£»½á¹ûÎª0£¬Ôò¸ÃÊıÎªÅ¼Êı£©
-    cout << (b & 1) << endl;
 }
