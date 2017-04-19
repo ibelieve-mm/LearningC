@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/class_member/Line.h"
+#include "Line.h"
 
 
 using namespace std;
