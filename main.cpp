@@ -25,12 +25,19 @@ int main() {
     Teacher t2("Merry", 21);//调用有参的构造函数
     cout << "name:" + t2.getName() + ", age:" << t2.getAge() << endl;
 
-    cout <<endl;
+    cout << endl;
     Teacher t3("James");
     cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
 
-    Teacher t4=t3;
+    cout << endl;
+    Teacher t4 = t3;
     Teacher t5(t3);
+
+    cout << endl;
+    Teacher *p = new Teacher();
+    delete p;
+
+    cout << endl;
 
     return 0;
 }
