@@ -32,6 +32,9 @@ public:
 
     Teacher(string name, int age = 100);
 
+    //copy构造函数（以下两种写法效果一样）（如果不写，系统自动创建一个默认的copy构造函数）
+//    Teacher(const Teacher &t);
+    Teacher(const Teacher &);
 
     /** *************************** 其他函数 ******************************* */
 

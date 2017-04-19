@@ -29,5 +29,8 @@ int main() {
     Teacher t3("James");
     cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
 
+    Teacher t4=t3;
+    Teacher t5(t3);
+
     return 0;
 }

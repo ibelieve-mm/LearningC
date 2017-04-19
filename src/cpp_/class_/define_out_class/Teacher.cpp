@@ -41,6 +41,12 @@ Teacher::Teacher(string _name, int _age):str_name(_name),i_age(_age) {
 //}
 
 
+// copy构造函数（如果不写，系统自动创建一个默认的copy构造函数）
+Teacher::Teacher(const Teacher &t) {
+    cout << "Teacher(const Teacher &t)" << endl;
+}
+
+
 /** *************************** 其他函数 ******************************* */
 
 void Teacher::setName(string _name) {
