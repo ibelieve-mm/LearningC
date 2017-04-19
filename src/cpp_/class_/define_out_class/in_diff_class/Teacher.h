@@ -24,44 +24,47 @@ using namespace std;
  * 数据成员的封装
  * 授课teach
  */
-class Teacher {
-public:
 
-    /** *************************** 构造函数 ******************************* */
+namespace in_diff_class {
+    class Teacher {
+    public:
 
-    // 无参的构造函数
-    Teacher();
+        /** *************************** 构造函数 ******************************* */
 
-    // 有参（并且带有默认值）的构造函数
-    Teacher(string name, int age = 100);
+        // 无参的构造函数
+        Teacher();
 
-    //copy构造函数（以下两种写法效果一样）（如果不写，系统自动创建一个默认的copy构造函数）
+        // 有参（并且带有默认值）的构造函数
+        Teacher(string name, int age = 100);
+
+        //copy构造函数（以下两种写法效果一样）（如果不写，系统自动创建一个默认的copy构造函数）
 //    Teacher(const Teacher &t);
-    Teacher(const Teacher &);
+        Teacher(const Teacher &);
 
 
-    /** *************************** 析构函数(对象销毁钱调用) ******************************* */
+        /** *************************** 析构函数(对象销毁钱调用) ******************************* */
 
-    ~Teacher();
+        ~Teacher();
 
-    /** *************************** 其他函数 ******************************* */
+        /** *************************** 其他函数 ******************************* */
 
-    void setName(string _name);
+        void setName(string _name);
 
-    string getName();
+        string getName();
 
-    void setGender(string _gender);
+        void setGender(string _gender);
 
-    string getGender();
+        string getGender();
 
-    void setAge(int _age);
+        void setAge(int _age);
 
-    int getAge();
+        int getAge();
 
-    void teach();
+        void teach();
 
-private:
-    string str_name;
-    string str_gender;
-    int i_age;
-};
+    private:
+        string str_name;
+        string str_gender;
+        int i_age;
+    };
+}

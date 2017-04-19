@@ -6,6 +6,7 @@
 #include <iostream>
 
 using namespace std;
+using namespace in_diff_class;
 
 /**
  * 定义一个Teacher类，要求分别采用同文件类外定义和分文件类外定义方式完成

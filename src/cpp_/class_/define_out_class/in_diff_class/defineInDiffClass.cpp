@@ -10,6 +10,7 @@
 #include "src/cpp_/class_/define_out_class/in_diff_class/Teacher.h"
 
 using namespace std;
+using namespace in_diff_class;
 
 int main() {
 
@@ -25,7 +26,7 @@ int main() {
     Teacher t2("Merry", 21);//调用有参的构造函数
     cout << "name:" + t2.getName() + ", age:" << t2.getAge() << endl;
 
-    cout <<endl;
+    cout << endl;
     Teacher t3("James");
     cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
 
