@@ -1,34 +1,24 @@
 /**
- * Descriptions：类外定义(分文件)
+ * Descriptions：对象成员
  * <p>
  * Author：ChenME
- * Date：2017/4/18
+ * Date：2017/4/19
  * Email：ibelieve1210@163.com
  */
 
 #include <iostream>
-#include "src/cpp_/class_/define_out_class/in_diff_class/Teacher.h"
+#include "src/cpp_/class_/class_member/Line.h"
+
 
 using namespace std;
-using namespace in_diff_class;
 
 int main() {
+    Line *p = new Line(1,2,3,4);
 
-    Teacher t;//调用无参的构造函数
-    t.setName("Jim");
-    t.setGender("M");
-    t.setAge(30);
+    p->printInfo();
 
-    cout << "name:" + t.getName() + ", gender:" + t.getGender() + ", age:" << t.getAge() << endl;
-    t.teach();
-
-    cout << endl;
-    Teacher t2("Merry", 21);//调用有参的构造函数
-    cout << "name:" + t2.getName() + ", age:" << t2.getAge() << endl;
-
-    cout << endl;
-    Teacher t3("James");
-    cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
+    delete (p);
+    p = NULL;
 
     return 0;
 }
