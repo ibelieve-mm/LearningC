@@ -7,6 +7,8 @@
  */
 
 #include <iostream>
+
+#include "src/cpp_/base/io_namespace/ioNamespace.h"
 #include "src/cpp_/base/quote_/quote_.h"
 #include "src/cpp_/base/string_/string_.h"
 #include "src/cpp_/class_/create_class/createClass.h"
@@ -22,8 +24,10 @@ using namespace std;
 
 int main() {
 
+    ioNamespaceInvoke();
+
     // c++中引用的使用
-    quoteInvoke();
+//    quoteInvoke();
 
     // 字符串的使用
 //    stringInvoke();

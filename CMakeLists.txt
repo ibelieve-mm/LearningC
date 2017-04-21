@@ -6,6 +6,16 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        io Demo以及namespace的使用
+        src/cpp_/base/io_namespace/ioTest.h
+        src/cpp_/base/io_namespace/ioTest.cpp
+        src/cpp_/base/io_namespace/nameSpaceTest.h
+        src/cpp_/base/io_namespace/nameSpaceTest.cpp
+        src/cpp_/base/io_namespace/homework.h
+        src/cpp_/base/io_namespace/homework.cpp
+        src/cpp_/base/io_namespace/ioNamespace.h
+        src/cpp_/base/io_namespace/ioNamespace.cpp
+
         #        c++中引用的使用
         src/cpp_/base/quote_/quote_.h
         src/cpp_/base/quote_/quote_.cpp
@@ -56,5 +66,5 @@ set(SOURCE_FILES
         src/cpp_/class_/class_pointer/Coordinate.h
         src/cpp_/class_/class_pointer/Coordinate.cpp
         src/cpp_/class_/class_pointer/classPointer.h
-        src/cpp_/class_/class_pointer/classPointer.cpp)
+        src/cpp_/class_/class_pointer/classPointer.cpp src/cpp_/base/io_namespace/ioNamespace.cpp)
 add_executable(LearningC ${SOURCE_FILES})

@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main() {
+void ioTestInvoke() {
 
     int x = 0;
     cout << "请输入一个整数：" << endl;
@@ -24,6 +24,4 @@ int main() {
     cout << "请输入一个布尔值（0或1）" << endl;
     cin >> y;
     cout << boolalpha << y;//输出bool值
-
-    return 0;
 }

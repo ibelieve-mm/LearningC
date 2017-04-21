@@ -31,11 +31,10 @@ namespace B {
 
 using namespace B;
 
-int main() {
+void namespaceInvoke() {
     A::fun();
     fun();
     fun2();
-    return 0;
 }
 
 //
@@ -44,7 +43,7 @@ int main() {
 //    int x = 105;
 //}
 //
-//int main() {
+//void namespaceInvoke() {
 //    // 使用bool类型定义isOdd，作为状态位
 //    bool isFlag = false;
 //
@@ -64,5 +63,4 @@ int main() {
 //        cout << myNum::x << "是偶数。";
 //
 //    }
-//    return 0;
 //}
