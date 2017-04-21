@@ -6,6 +6,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        内存的管理
+        src/cpp_/base/memory_manage/manageMemory.h
+        src/cpp_/base/memory_manage/manageMemory.cpp
+
         #        函数参数默认值的使用
         src/cpp_/base/default_para_fun/defaultParaFun.h
         src/cpp_/base/default_para_fun/defaultParaFun.cpp

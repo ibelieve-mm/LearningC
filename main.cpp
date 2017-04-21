@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "src/cpp_/base/memory_manage/manageMemory.h"
 #include "src/cpp_/base/default_para_fun/defaultParaFun.h"
 #include "src/cpp_/base/const_/const_.h"
 #include "src/cpp_/base/io_namespace/ioNamespace.h"
@@ -26,8 +27,11 @@ using namespace std;
 
 int main() {
 
+    // 内存的管理
+    memoryManageInvoke();
+
     // 函数参数默认值的使用
-    defaultParaFunInvoke();
+//    defaultParaFunInvoke();
 
     // const关键字的使用
 //    constInvoke();
