@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "src/cpp_/base/default_para_fun/defaultParaFun.h"
 #include "src/cpp_/base/const_/const_.h"
 #include "src/cpp_/base/io_namespace/ioNamespace.h"
 #include "src/cpp_/base/quote_/quote_.h"
@@ -25,8 +26,11 @@ using namespace std;
 
 int main() {
 
+    // 函数参数默认值的使用
+    defaultParaFunInvoke();
+
     // const关键字的使用
-    constInvoke();
+//    constInvoke();
 
     // io以及namespace的使用
 //    ioNamespaceInvoke();

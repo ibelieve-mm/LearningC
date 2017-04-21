@@ -16,9 +16,8 @@ void fun(int i, int j, int k) {//定义函数
 }
 
 // 使用
-int main() {
+void defaultParaFunInvoke() {
     fun(10);            //结果：10,     2,      3
     fun(10, 20);        //结果：10,     20,     3
     fun(10, 20, 30);    //结果：10,     20,     30
-    return 0;
 }
