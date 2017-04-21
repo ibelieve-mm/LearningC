@@ -7,4 +7,4 @@
 
 #endif //LEARNINGC_CLASSARRAY_H
 
-void classArray();
+void classArrayInvoke();

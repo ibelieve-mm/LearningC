@@ -16,10 +16,10 @@ using namespace std;
 int main() {
 
     // 对象数组
-//    classArray();
+    classArrayInvoke();
 
     // 深copy
-    deepCopyInvoke();
+//    deepCopyInvoke();
 
     // 对象指针的使用
 //    classPointerInvoke();
