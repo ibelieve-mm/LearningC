@@ -7,15 +7,19 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/class_pointer/classPointer.h"
 #include "src/cpp_/class_/class_array/classArray.h"
+#include "src/cpp_/class_/deep_copy/deepCopy.h"
+#include "src/cpp_/class_/class_pointer/classPointer.h"
 
 using namespace std;
 
 int main() {
 
     // 对象数组
-    classArray();
+//    classArray();
+
+    // 深copy
+    deepCopyInvoke();
 
     // 对象指针的使用
 //    classPointerInvoke();

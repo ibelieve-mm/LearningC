@@ -7,13 +7,13 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/deep_copy/Array.h"
+#include "Array.h"
 
 
 using namespace std;
 using namespace deep_array;
 
-int main() {
+void deepCopyInvoke() {
     Array arr1(5);
     cout << "arr1->count:" << arr1.getCount() << endl;
     arr1.printAddr();
@@ -27,6 +27,4 @@ int main() {
     arr2.printArr();
 
     cout << endl;
-
-    return 0;
 }

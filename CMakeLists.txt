@@ -20,8 +20,8 @@ set(SOURCE_FILES
 
         src/cpp_/class_/deep_copy/Array.h
         src/cpp_/class_/deep_copy/Array.cpp
-        #        src/cpp_/class_/deep_copy/classArray.h
-        #        src/cpp_/class_/deep_copy/classArray.cpp
+        src/cpp_/class_/deep_copy/deepCopy.h
+        src/cpp_/class_/deep_copy/deepCopy.cpp
 
 
         src/cpp_/class_/class_pointer/Coordinate.h
