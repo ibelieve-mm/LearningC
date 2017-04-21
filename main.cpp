@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "src/cpp_/class_/create_class/createClass.h"
+#include "src/cpp_/class_/data_pack/dataPack.h"
 #include "src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.h"
 #include "src/cpp_/class_/define_out_class/in_diff_file/defineOutClassInDiffFile.h"
 #include "src/cpp_/class_/class_array/classArray.h"
@@ -20,7 +21,10 @@ using namespace std;
 int main() {
 
     // 类的实例化
-    createClassInvoke();
+//    createClassInvoke();
+
+    // 数据的封装
+    dataPackInvoke();
 
     // 类外定义(分文件)
 //    defineOutClassInSameFileInvoke();

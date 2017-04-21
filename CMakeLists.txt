@@ -10,6 +10,10 @@ set(SOURCE_FILES
         src/cpp_/class_/create_class/createClass.h
         src/cpp_/class_/create_class/createClass.cpp
 
+        #        数据封装
+        src/cpp_/class_/data_pack/dataPack.h
+        src/cpp_/class_/data_pack/dataPack.cpp
+
         #        类外定义(同文件)
         src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.h
         src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.cpp
