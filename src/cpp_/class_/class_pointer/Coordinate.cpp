@@ -1,11 +1,11 @@
 //
-// Created by admin on 2017/4/19.
+// Created by admin on 2017/4/21.
 //
 #include <iostream>
 #include "Coordinate.h"
 
 using namespace std;
-using namespace class_array;
+using namespace class_pointer;
 
 Coordinate::Coordinate() {
     cout << "Coordinate()" << endl;
