@@ -7,27 +7,10 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/class_pointer/Coordinate.h"
-
-
-void createClassFromHeap();
-
-void createClassFromStack();
+#include "Coordinate.h"
 
 using namespace std;
 using namespace class_pointer;
-
-int main() {
-
-    // 从堆中实例化对象
-//    createClassFromHeap();
-
-
-    // 从栈实例化对象
-    createClassFromStack();
-
-    return 0;
-}
 
 /**
  * 从栈实例化对象
@@ -69,4 +52,12 @@ void createClassFromHeap() {
 
     delete p2;
     p2 = NULL;
+}
+
+void classPointerInvoke() {
+    // 从堆中实例化对象
+    createClassFromHeap();
+
+    // 从栈实例化对象
+//    createClassFromStack();
 }
