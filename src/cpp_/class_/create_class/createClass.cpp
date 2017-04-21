@@ -24,7 +24,7 @@ public :
     }
 };
 
-int main() {
+void  createClassInvoke() {
 
     //在栈中实例化一个对象
     Coordinate coor;
@@ -37,7 +37,7 @@ int main() {
     Coordinate *p = new Coordinate();
     if (NULL == p) {
         //申请内存失败
-        return 0;
+//        return 0;
     }
     p->x = 100;
     p->y = 200;
@@ -45,6 +45,4 @@ int main() {
     p->printY();
     delete p;
     p = NULL;
-
-    return 0;
 }
