@@ -7,12 +7,12 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/class_array/Coordinate.h"
+#include "Coordinate.h"
 
 using namespace std;
 using namespace class_array;
 
-int main() {
+void classArray() {
 
     Coordinate coor[3];
     coor[0]._iX = 3;
@@ -55,6 +55,4 @@ int main() {
     cout <<"此时指针开始的地址："<<p<<endl;
     delete []p;
     p = NULL;
-
-    return 0;
 }
