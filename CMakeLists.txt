@@ -6,6 +6,9 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        src/c_/function/functionTest.h
+        src/c_/function/functionTest.cpp
+
         #        内存的管理
         src/cpp_/base/memory_manage/manageMemory.h
         src/cpp_/base/memory_manage/manageMemory.cpp

@@ -9,6 +9,8 @@
 #include <iostream>
 #include <stdio.h>
 
+#include "function/functionTest.h"
+
 using namespace std;
 
 /** ***************************************************************************************************************** */
@@ -74,14 +76,11 @@ void printPrimeNumber();//输出2-100之间的素数
 void recursion();//递归调用的展示
 void defineTest();//宏定义测试
 
-int main() {
-    printMultiplicationTable();
-    printPrimeNumber();
-    recursion();
-    defineTest();
-
-//    system("pause");
-    return 0;
+void cTest() {
+//    printMultiplicationTable();
+//    printPrimeNumber();
+//    recursion();
+//    defineTest();
 }
 
 /**

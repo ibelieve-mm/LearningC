@@ -20,9 +20,8 @@ int getMaxOrMin(int *arr, int count, bool isMax) {
     return temp;
 }
 
-int main() {
+void funInvoke() {
     int arr[3] = {24, 5, 85};
     cout << getMaxOrMin(arr, 3, true) << endl;
     cout << getMaxOrMin(arr, 3, false) << endl;
-    return 0;
 }
