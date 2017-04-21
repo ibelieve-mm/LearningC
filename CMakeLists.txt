@@ -8,22 +8,27 @@ set(SOURCE_FILES
         src/cpp_/class_/define_out_class/in_diff_class/Teacher.h
         src/cpp_/class_/define_out_class/in_diff_class/Teacher.cpp
 
+        #        对象数组
         src/cpp_/class_/class_array/Coordinate.h
         src/cpp_/class_/class_array/Coordinate.cpp
         src/cpp_/class_/class_array/classArray.h
         src/cpp_/class_/class_array/classArray.cpp
 
+        #        对象成员
         src/cpp_/class_/class_member/Line.h
         src/cpp_/class_/class_member/Line.cpp
         src/cpp_/class_/class_member/Coordinate.h
         src/cpp_/class_/class_member/Coordinate.cpp
+        src/cpp_/class_/class_member/classMember.h
+        src/cpp_/class_/class_member/classMember.cpp
 
+        #        深copy
         src/cpp_/class_/deep_copy/Array.h
         src/cpp_/class_/deep_copy/Array.cpp
         src/cpp_/class_/deep_copy/deepCopy.h
         src/cpp_/class_/deep_copy/deepCopy.cpp
 
-
+        #        对象指针的使用
         src/cpp_/class_/class_pointer/Coordinate.h
         src/cpp_/class_/class_pointer/Coordinate.cpp
         src/cpp_/class_/class_pointer/classPointer.h
