@@ -7,12 +7,12 @@
  */
 
 #include <iostream>
-#include "src/cpp_/class_/define_out_class/in_diff_class/Teacher.h"
+#include "Teacher.h"
 
 using namespace std;
 using namespace in_diff_class;
 
-int main() {
+void defineOutClassInDiffFileInvoke() {
 
     Teacher t;//调用无参的构造函数
     t.setName("Jim");
@@ -29,6 +29,4 @@ int main() {
     cout << endl;
     Teacher t3("James");
     cout << "name:" + t3.getName() + ", age:" << t3.getAge() << endl;
-
-    return 0;
 }

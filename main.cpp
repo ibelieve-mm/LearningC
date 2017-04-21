@@ -7,6 +7,7 @@
  */
 
 #include <iostream>
+#include "src/cpp_/class_/define_out_class/in_diff_file/defineOutClassInDiffFile.h"
 #include "src/cpp_/class_/class_array/classArray.h"
 #include "src/cpp_/class_/class_member/classMember.h"
 #include "src/cpp_/class_/deep_copy/deepCopy.h"
@@ -16,11 +17,14 @@ using namespace std;
 
 int main() {
 
+    // 类外定义(分文件)
+    defineOutClassInDiffFileInvoke();
+
     // 对象数组
 //    classArrayInvoke();
 
     // 对象成员
-    classMemberInvoke();
+//    classMemberInvoke();
 
     // 深copy
 //    deepCopyInvoke();

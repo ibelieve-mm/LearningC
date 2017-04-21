@@ -1,0 +1,9 @@
+//
+// Created by admin on 2017/4/21.
+//
+
+#ifndef LEARNINGC_DEFINEOUTCLASSINDIFFFILE_H
+#define LEARNINGC_DEFINEOUTCLASSINDIFFFILE_H
+
+#endif //LEARNINGC_DEFINEOUTCLASSINDIFFFILE_H
+void defineOutClassInDiffFileInvoke();

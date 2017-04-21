@@ -25,7 +25,7 @@ using namespace std;
  * 授课teach
  */
 
-namespace in_diff_class {
+namespace in_diff_file {
     class Teacher {
     public:
 

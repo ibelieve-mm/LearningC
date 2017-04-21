@@ -5,8 +5,12 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         main.cpp
-        src/cpp_/class_/define_out_class/in_diff_class/Teacher.h
-        src/cpp_/class_/define_out_class/in_diff_class/Teacher.cpp
+
+        #        类外定义(分文件)
+        src/cpp_/class_/define_out_class/in_diff_file/Teacher.h
+        src/cpp_/class_/define_out_class/in_diff_file/Teacher.cpp
+        src/cpp_/class_/define_out_class/in_diff_file/defineOutClassInDiffFile.h
+        src/cpp_/class_/define_out_class/in_diff_file/defineOutClassInDiffFile.cpp
 
         #        对象数组
         src/cpp_/class_/class_array/Coordinate.h
