@@ -6,6 +6,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        const的使用
+        src/cpp_/base/const_/const_.h
+        src/cpp_/base/const_/const_.cpp
+
         #        io Demo以及namespace的使用
         src/cpp_/base/io_namespace/ioTest.h
         src/cpp_/base/io_namespace/ioTest.cpp

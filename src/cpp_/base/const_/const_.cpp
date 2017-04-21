@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main() {
+void constInvoke() {
 
     const int x = 3;
     int y = 4;
@@ -38,6 +38,4 @@ int main() {
     /** ************************************************** 华丽的分割 ******************************************************* */
     int const &q = y;
     // q=z;//错误
-
-    return 0;
 }

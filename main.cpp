@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "src/cpp_/base/const_/const_.h"
 #include "src/cpp_/base/io_namespace/ioNamespace.h"
 #include "src/cpp_/base/quote_/quote_.h"
 #include "src/cpp_/base/string_/string_.h"
@@ -24,7 +25,11 @@ using namespace std;
 
 int main() {
 
-    ioNamespaceInvoke();
+    // const关键字的使用
+    constInvoke();
+
+    // io以及namespace的使用
+//    ioNamespaceInvoke();
 
     // c++中引用的使用
 //    quoteInvoke();
