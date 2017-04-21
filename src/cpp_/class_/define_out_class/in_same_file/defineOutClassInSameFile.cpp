@@ -73,7 +73,7 @@ void Teacher::teach() {
     cout << "class begin!" << endl;
 }
 
-int main() {
+void  defineOutClassInSameFileInvoke() {
 
     Teacher t;
     t.setName("Jim");
@@ -82,6 +82,4 @@ int main() {
 
     cout << "name:" + t.getName() + ", gender:" + t.getGender() + ", age:" << t.getAge() << endl;
     t.teach();
-
-    return 0;
 }

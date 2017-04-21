@@ -7,6 +7,7 @@
  */
 
 #include <iostream>
+#include "src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.h"
 #include "src/cpp_/class_/define_out_class/in_diff_file/defineOutClassInDiffFile.h"
 #include "src/cpp_/class_/class_array/classArray.h"
 #include "src/cpp_/class_/class_member/classMember.h"
@@ -18,7 +19,10 @@ using namespace std;
 int main() {
 
     // 类外定义(分文件)
-    defineOutClassInDiffFileInvoke();
+    defineOutClassInSameFileInvoke();
+
+    // 类外定义(分文件)
+//    defineOutClassInDiffFileInvoke();
 
     // 对象数组
 //    classArrayInvoke();

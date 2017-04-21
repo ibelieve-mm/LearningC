@@ -1,0 +1,9 @@
+//
+// Created by admin on 2017/4/21.
+//
+
+#ifndef LEARNINGC_DEFINEOUTCLASSINSAMEFILE_H
+#define LEARNINGC_DEFINEOUTCLASSINSAMEFILE_H
+
+#endif //LEARNINGC_DEFINEOUTCLASSINSAMEFILE_H
+void defineOutClassInSameFileInvoke();

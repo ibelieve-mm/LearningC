@@ -6,6 +6,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        类外定义(同文件)
+        src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.h
+        src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.cpp
+
         #        类外定义(分文件)
         src/cpp_/class_/define_out_class/in_diff_file/Teacher.h
         src/cpp_/class_/define_out_class/in_diff_file/Teacher.cpp
