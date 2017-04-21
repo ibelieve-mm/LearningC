@@ -6,6 +6,14 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        c++中引用的使用
+        src/cpp_/base/quote_/quote_.h
+        src/cpp_/base/quote_/quote_.cpp
+
+        #        字符串的使用
+        src/cpp_/base/string_/string_.h
+        src/cpp_/base/string_/string_.cpp
+
         #        类的实例化
         src/cpp_/class_/create_class/createClass.h
         src/cpp_/class_/create_class/createClass.cpp

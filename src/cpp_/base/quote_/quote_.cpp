@@ -52,9 +52,8 @@ typedef struct {
 
 void yinyongDemo();
 
-int main() {
+void quoteInvoke() {
     yinyongDemo();
-    return 0;
 }
 
 /**

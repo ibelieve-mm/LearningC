@@ -7,6 +7,8 @@
  */
 
 #include <iostream>
+#include "src/cpp_/base/quote_/quote_.h"
+#include "src/cpp_/base/string_/string_.h"
 #include "src/cpp_/class_/create_class/createClass.h"
 #include "src/cpp_/class_/data_pack/dataPack.h"
 #include "src/cpp_/class_/define_out_class/in_same_file/defineOutClassInSameFile.h"
@@ -20,11 +22,17 @@ using namespace std;
 
 int main() {
 
+    // c++中引用的使用
+    quoteInvoke();
+
+    // 字符串的使用
+//    stringInvoke();
+
     // 类的实例化
 //    createClassInvoke();
 
     // 数据的封装
-    dataPackInvoke();
+//    dataPackInvoke();
 
     // 类外定义(分文件)
 //    defineOutClassInSameFileInvoke();
