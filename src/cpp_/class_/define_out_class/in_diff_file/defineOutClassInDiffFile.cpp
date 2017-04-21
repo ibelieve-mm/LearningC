@@ -10,7 +10,7 @@
 #include "Teacher.h"
 
 using namespace std;
-using namespace in_diff_class;
+using namespace in_diff_file;
 
 void defineOutClassInDiffFileInvoke() {
 
