@@ -24,13 +24,14 @@
 #include "src/cpp_/class_/deep_copy/deepCopy.h"
 #include "src/cpp_/class_/class_pointer/classPointer.h"
 #include "src/c_/reviewCAll.h"
+#include "src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h"
 
 using namespace std;
 
 int main() {
 
     // C语言回顾
-    reviewCInvoke();
+//    reviewCInvoke();
 
     // 内存的管理
 //    memoryManageInvoke();
@@ -74,5 +75,7 @@ int main() {
     // 对象指针的使用
 //    classPointerInvoke();
 
+    // 对象成员指针
+    classMemeberPointerInvoke();
     return 0;
 }

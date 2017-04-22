@@ -91,5 +91,14 @@ set(SOURCE_FILES
         src/cpp_/class_/class_pointer/Coordinate.cpp
         src/cpp_/class_/class_pointer/classPointer.h
         src/cpp_/class_/class_pointer/classPointer.cpp
+
+        #        对象成员指针
+        src/cpp_/class_/class_memeber_pointer/Coordinate.h
+        src/cpp_/class_/class_memeber_pointer/Coordinate.cpp
+        src/cpp_/class_/class_memeber_pointer/Line.h
+        src/cpp_/class_/class_memeber_pointer/Line.cpp
+        src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h
+        src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.cpp
+
         )
 add_executable(LearningC ${SOURCE_FILES})
