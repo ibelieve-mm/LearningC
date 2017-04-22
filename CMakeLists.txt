@@ -6,8 +6,19 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        #        c语言回顾
         src/c_/function/functionTest.h
         src/c_/function/functionTest.cpp
+        src/c_/c_test/cTest.h
+        src/c_/c_test/cTest.cpp
+        src/c_/bit_operation/bitOperation.h
+        src/c_/bit_operation/bitOperation.cpp
+        src/c_/link/linkStatic.h
+        src/c_/link/linkStatic.cpp
+        src/c_/link/linkDynamic.h
+        src/c_/link/linkDynamic.cpp
+        src/c_/reviewCAll.h
+        src/c_/reviewCAll.cpp
 
         #        内存的管理
         src/cpp_/base/memory_manage/manageMemory.h
@@ -26,8 +37,6 @@ set(SOURCE_FILES
         src/cpp_/base/io_namespace/ioTest.cpp
         src/cpp_/base/io_namespace/nameSpaceTest.h
         src/cpp_/base/io_namespace/nameSpaceTest.cpp
-        src/cpp_/base/io_namespace/homework.h
-        src/cpp_/base/io_namespace/homework.cpp
         src/cpp_/base/io_namespace/ioNamespace.h
         src/cpp_/base/io_namespace/ioNamespace.cpp
 
@@ -81,5 +90,6 @@ set(SOURCE_FILES
         src/cpp_/class_/class_pointer/Coordinate.h
         src/cpp_/class_/class_pointer/Coordinate.cpp
         src/cpp_/class_/class_pointer/classPointer.h
-        src/cpp_/class_/class_pointer/classPointer.cpp src/cpp_/base/io_namespace/ioNamespace.cpp)
+        src/cpp_/class_/class_pointer/classPointer.cpp
+        )
 add_executable(LearningC ${SOURCE_FILES})

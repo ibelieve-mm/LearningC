@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "src/c_/function/functionTest.h"
 #include "src/cpp_/base/memory_manage/manageMemory.h"
 #include "src/cpp_/base/default_para_fun/defaultParaFun.h"
 #include "src/cpp_/base/const_/const_.h"
@@ -22,13 +23,17 @@
 #include "src/cpp_/class_/class_member/classMember.h"
 #include "src/cpp_/class_/deep_copy/deepCopy.h"
 #include "src/cpp_/class_/class_pointer/classPointer.h"
+#include "src/c_/reviewCAll.h"
 
 using namespace std;
 
 int main() {
 
+    // C语言回顾
+    reviewCInvoke();
+
     // 内存的管理
-    memoryManageInvoke();
+//    memoryManageInvoke();
 
     // 函数参数默认值的使用
 //    defaultParaFunInvoke();

@@ -9,7 +9,7 @@
 #include <iostream>
 #include <stdio.h>
 
-#include "function/functionTest.h"
+#include "../function/functionTest.h"
 
 using namespace std;
 
@@ -77,10 +77,10 @@ void recursion();//递归调用的展示
 void defineTest();//宏定义测试
 
 void cTest() {
-//    printMultiplicationTable();
-//    printPrimeNumber();
-//    recursion();
-//    defineTest();
+    printMultiplicationTable();
+    printPrimeNumber();
+    recursion();
+    defineTest();
 }
 
 /**

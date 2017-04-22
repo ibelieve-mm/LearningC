@@ -17,7 +17,7 @@ struct Weapon {
     struct Weapon *next;
 };
 
-int main() {
+void staticLinkInvoke() {
 
     struct Weapon a, b, c, *head;
 
@@ -41,7 +41,4 @@ int main() {
         cout << "Price:" << p->price << "\tAtk:" << p->atk << endl;
         p = p->next;
     }
-
-
-    return 0;
 }

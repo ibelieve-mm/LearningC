@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int getMaxOrMin(int *arr, int count, bool isMax) {
+int getMaxOrMinFun(int *arr, int count, bool isMax) {
     int temp = arr[0];
     for (int i = 1; i < count; i++) {
         if (isMax ? temp < arr[i] : temp > arr[i]) {
@@ -22,6 +22,6 @@ int getMaxOrMin(int *arr, int count, bool isMax) {
 
 void funInvoke() {
     int arr[3] = {24, 5, 85};
-    cout << getMaxOrMin(arr, 3, true) << endl;
-    cout << getMaxOrMin(arr, 3, false) << endl;
+    cout << getMaxOrMinFun(arr, 3, true) << endl;
+    cout << getMaxOrMinFun(arr, 3, false) << endl;
 }

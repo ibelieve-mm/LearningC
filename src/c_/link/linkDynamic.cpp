@@ -8,7 +8,6 @@
  */
 
 #include <iostream>
-#include <malloc.h>
 
 using namespace std;
 
@@ -43,11 +42,9 @@ struct Weapon *create() {
     return head;
 }
 
-int main() {
+void dynamicLinkInvoke() {
 
     struct Weapon *p;
     p=create();
     cout << "第一个值~~Price:" << p->price << "\tAtk:" << p->atk << endl;
-
-    return 0;
 }

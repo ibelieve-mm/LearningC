@@ -28,7 +28,7 @@ void leftMove();
 using namespace std;
 
 
-int main() {
+void bitOperationInvoke() {
 
     //与运算
     andBitOperation();
@@ -41,9 +41,6 @@ int main() {
 
     //左移运算
     leftMove();
-
-
-    return 0;
 }
 
 void leftMove() {//规则，高位丢弃，低位补0

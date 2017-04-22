@@ -23,5 +23,5 @@ void ioTestInvoke() {
     bool y = false;
     cout << "请输入一个布尔值（0或1）" << endl;
     cin >> y;
-    cout << boolalpha << y;//输出bool值
+    cout << boolalpha << y << endl;//输出bool值
 }
