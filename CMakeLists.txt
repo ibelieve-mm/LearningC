@@ -100,5 +100,11 @@ set(SOURCE_FILES
         src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h
         src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.cpp
 
+        #        this指针的使用
+        src/cpp_/class_/this_pointer/Array.h
+        src/cpp_/class_/this_pointer/Array.cpp
+        src/cpp_/class_/this_pointer/thisPointerTest.h
+        src/cpp_/class_/this_pointer/thisPointerTest.cpp
+
         )
 add_executable(LearningC ${SOURCE_FILES})

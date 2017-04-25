@@ -25,6 +25,7 @@
 #include "src/cpp_/class_/class_pointer/classPointer.h"
 #include "src/c_/reviewCAll.h"
 #include "src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h"
+#include "src/cpp_/class_/this_pointer/thisPointerTest.h"
 
 using namespace std;
 
@@ -76,6 +77,10 @@ int main() {
 //    classPointerInvoke();
 
     // 对象成员指针
-    classMemeberPointerInvoke();
+//    classMemeberPointerInvoke();
+
+    // this指针的使用
+    thisPointerInvoke();
+
     return 0;
 }
