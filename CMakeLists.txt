@@ -106,5 +106,13 @@ set(SOURCE_FILES
         src/cpp_/class_/this_pointer/thisPointerTest.h
         src/cpp_/class_/this_pointer/thisPointerTest.cpp
 
+#        常对象、常函数、常对象
+        src/cpp_/class_/const_function/constFunTest.h
+        src/cpp_/class_/const_function/constFunTest.cpp
+        src/cpp_/class_/const_function/Coordinate.h
+        src/cpp_/class_/const_function/Coordinate.cpp
+        src/cpp_/class_/const_function/Line.h
+        src/cpp_/class_/const_function/Line.cpp
+
         )
 add_executable(LearningC ${SOURCE_FILES})

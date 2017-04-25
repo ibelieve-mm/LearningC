@@ -9,11 +9,11 @@ using namespace this_pointer;
 
 Array::Array(int len) {
     this->len = len;
-    cout << "(thisÖ¸ÕëµÄÊ¹ÓÃ) Array(int len)" << endl;
+    cout << "(thisæŒ‡é’ˆçš„ä½¿ç”¨) Array(int len)" << endl;
 }
 
 Array::~Array() {
-    cout << "(thisÖ¸ÕëµÄÊ¹ÓÃ) ~Array()" << endl;
+    cout << "(thisæŒ‡é’ˆçš„ä½¿ç”¨) ~Array()" << endl;
 }
 
 
@@ -27,7 +27,7 @@ int Array::getLen() {
 //}
 //
 //Array &Array::printInfo() {
-//    cout << "(thisÖ¸ÕëµÄÊ¹ÓÃ) printInfo()" << endl;
+//    cout << "(thisæŒ‡é’ˆçš„ä½¿ç”¨) printInfo()" << endl;
 //    cout << "the value of len is " << getLen() << endl;
 //
 //    return *this;
@@ -39,7 +39,7 @@ Array *Array::setLen(int len) {
 }
 
 Array *Array::printInfo() {
-    cout << "(thisÖ¸ÕëµÄÊ¹ÓÃ) printInfo()" << endl;
+    cout << "(thisæŒ‡é’ˆçš„ä½¿ç”¨) printInfo()" << endl;
     cout << "the value of len is " << getLen() << endl;
 
     return this;

@@ -26,6 +26,7 @@
 #include "src/c_/reviewCAll.h"
 #include "src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h"
 #include "src/cpp_/class_/this_pointer/thisPointerTest.h"
+#include "src/cpp_/class_/const_function/constFunTest.h"
 
 using namespace std;
 
@@ -80,7 +81,10 @@ int main() {
 //    classMemeberPointerInvoke();
 
     // this指针的使用
-    thisPointerInvoke();
+//    thisPointerInvoke();
+
+    // 常对象、常函数、常对象
+    constFunInvoke();
 
     return 0;
 }
