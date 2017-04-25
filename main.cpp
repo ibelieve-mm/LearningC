@@ -27,6 +27,7 @@
 #include "src/cpp_/class_/class_memeber_pointer/demoClassMemeberPointer.h"
 #include "src/cpp_/class_/this_pointer/thisPointerTest.h"
 #include "src/cpp_/class_/const_function/constFunTest.h"
+#include "src/cpp_/maze/maze.h"
 
 using namespace std;
 
@@ -84,7 +85,10 @@ int main() {
 //    thisPointerInvoke();
 
     // 常对象、常函数、常对象
-    constFunInvoke();
+//    constFunInvoke();
+
+    // 迷宫
+//    mazeInvoke();
 
     return 0;
 }
