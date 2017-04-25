@@ -24,6 +24,6 @@ void classMemeberPointerInvoke() {
     delete p;
     p = NULL;
 
-    cout<<sizeof(p)<<endl;
-    cout<<sizeof(Line)<<endl;
+    cout<<sizeof(p)<<endl;//p是一个指针，所以占用一个基本的内存的单元
+    cout<<sizeof(Line)<<endl;//Line里面有两个指针，所以占用两个基本的内存单元
 }

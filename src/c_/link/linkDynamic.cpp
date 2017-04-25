@@ -46,6 +46,6 @@ struct Weapon *create() {
 void dynamicLinkInvoke() {
 
     struct Weapon *p;
-    p=create();
+    p = create();
     cout << "第一个值~~Price:" << p->price << "\tAtk:" << p->atk << endl;
 }

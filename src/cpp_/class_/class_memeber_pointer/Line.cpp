@@ -27,7 +27,7 @@ Line::~Line() {
 }
 
 void Line::printInfo() {
-    cout << "(对象成员指针)~printInfo()" << endl;
+    cout << "(对象成员指针)printInfo()" << endl;
     cout << "((" << _pCoorA->getX() << "," << _pCoorA->getY() << "), ("
          << _pCoorB->getX() << "," << _pCoorB->getY() << "))" << endl;
 }
