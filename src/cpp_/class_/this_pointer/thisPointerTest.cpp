@@ -15,5 +15,6 @@ using namespace this_pointer;
 void thisPointerInvoke() {
     Array arr1(10);
 
-    arr1.printInfo().setLen(5).printInfo();
+//    arr1.printInfo().setLen(5).printInfo();
+    arr1.printInfo()->setLen(5)->printInfo();
 }

@@ -8,11 +8,16 @@ namespace this_pointer {
 
         ~Array();
 
-        Array& setLen(int len);
 
         int getLen();
 
-        Array& printInfo();
+//        Array &setLen(int len);
+
+//        Array &printInfo();
+
+        Array *setLen(int len);
+
+        Array *printInfo();
 
     private:
         int len;
