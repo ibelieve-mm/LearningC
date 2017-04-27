@@ -29,6 +29,7 @@
 #include "src/cpp_/class_/const_function/constFunTest.h"
 #include "src/cpp_/maze/maze.h"
 #include "src/cpp_/extend_/public_/extendPublicTest.h"
+#include "src/cpp_/extend_/private_/extendPrivateTest.h"
 
 using namespace std;
 
@@ -92,7 +93,10 @@ int main() {
 //    mazeInvoke();
 
     // 公有继承
-    extendPublicTestInvoke();
+//    extendPublicTestInvoke();
+
+    // 私有继承
+     extendPrivateInvoke();
 
     return 0;
 }

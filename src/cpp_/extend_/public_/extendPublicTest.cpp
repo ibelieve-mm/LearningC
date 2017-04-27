@@ -15,7 +15,7 @@ void extendPublicTestInvoke() {
 //    person._iAge=10; //错误，无法访问 private 成员
     person.eat();
 
-    cout << "---------------------------------" << endl;
+    cout << "-------------------------------------------------" << endl;
 
     Worker worker;
     worker.eat();

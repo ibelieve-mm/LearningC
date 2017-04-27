@@ -8,15 +8,15 @@ using namespace std;
 using namespace extend_public;
 
 Person::Person() {
-    cout << "(extend_base) Person()" << endl;
+    cout << "(extend_public) Person()" << endl;
 }
 
 Person::~Person() {
-    cout << "(extend_base) ~Person()" << endl;
+    cout << "(extend_public) ~Person()" << endl;
 }
 
 void Person::eat() {
-    _strName = "ChenME";
-    _iAge = 20;
-    cout << "(extend_base) eat()" << endl;
+    _strName = "Person";
+    _iAge = 0;
+    cout << "(extend_public) eat()" << endl;
 }

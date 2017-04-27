@@ -9,15 +9,15 @@ using namespace std;
 using namespace extend_public;
 
 Worker::Worker() {
-    cout << "(extend_base) Worker()" << endl;
+    cout << "(extend_public) Worker()" << endl;
 }
 
 Worker::~Worker() {
-    cout << "(extend_base) ~Worker()" << endl;
+    cout << "(extend_public) ~Worker()" << endl;
 }
 
 void Worker::work() {
-    _strName = "ChenME_worker";
-//    _iAge = 20; // 错误
-    cout << "(extend_base) work()" << endl;
+    _strName = "Worker";
+//    _iAge = 1; // 错误
+    cout << "(extend_public) work()" << endl;
 }

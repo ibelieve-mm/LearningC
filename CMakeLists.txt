@@ -141,6 +141,16 @@ set(SOURCE_FILES
         src/cpp_/extend_/public_/extendPublicTest.h
         src/cpp_/extend_/public_/extendPublicTest.cpp
 
+        #        私有继承
+        src/cpp_/extend_/private_/Person.h
+        src/cpp_/extend_/private_/Person.cpp
+        src/cpp_/extend_/private_/Solider.h
+        src/cpp_/extend_/private_/Solider.cpp
+        src/cpp_/extend_/private_/Infantry.h
+        src/cpp_/extend_/private_/Infantry.cpp
+        src/cpp_/extend_/private_/extendPrivateTest.h
+        src/cpp_/extend_/private_/extendPrivateTest.cpp
+
 
         )
 add_executable(LearningC ${SOURCE_FILES})
