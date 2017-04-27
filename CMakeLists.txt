@@ -151,13 +151,13 @@ set(SOURCE_FILES
         src/cpp_/extend_/private_/extendPrivateTest.h
         src/cpp_/extend_/private_/extendPrivateTest.cpp
 
-
-#        src/cpp_/extend_/hide/Person.h
-#        src/cpp_/extend_/hide/Person.cpp
-#        src/cpp_/extend_/hide/Solider.h
-#        src/cpp_/extend_/hide/Solider.cpp
-#        src/cpp_/extend_/hide/extendHideTest.h
-#        src/cpp_/extend_/hide/extendHideTest.cpp
+        #        隐藏
+        src/cpp_/extend_/hide/Person.h
+        src/cpp_/extend_/hide/Person.cpp
+        src/cpp_/extend_/hide/Solider.h
+        src/cpp_/extend_/hide/Solider.cpp
+        src/cpp_/extend_/hide/extendHideTest.h
+        src/cpp_/extend_/hide/extendHideTest.cpp
 
         )
 add_executable(LearningC ${SOURCE_FILES})

@@ -97,9 +97,10 @@ int main() {
 //    extendPublicTestInvoke();
 
     // 私有继承
-     extendPrivateInvoke();
+//     extendPrivateInvoke();
 
+    // 隐藏
+    extendHideInvoke();
 
-//    extendHideInvoke();
     return 0;
 }
