@@ -20,6 +20,8 @@ set(SOURCE_FILES
         src/c_/reviewCAll.h
         src/c_/reviewCAll.cpp
 
+        #####################################################################################################
+
         #        内存的管理
         src/cpp_/base/memory_manage/manageMemory.h
         src/cpp_/base/memory_manage/manageMemory.cpp
@@ -47,6 +49,8 @@ set(SOURCE_FILES
         #        字符串的使用
         src/cpp_/base/string_/string_.h
         src/cpp_/base/string_/string_.cpp
+
+        ####################################################################################################
 
         #        类的实例化
         src/cpp_/class_/create_class/createClass.h
@@ -114,18 +118,28 @@ set(SOURCE_FILES
         src/cpp_/class_/const_function/Line.h
         src/cpp_/class_/const_function/Line.cpp
 
-        #        迷宫
-#        src/cpp_/maze/MazeMap.h
-#        src/cpp_/maze/MazeMap.cpp
-#        src/cpp_/maze/MazePerson.h
-#        src/cpp_/maze/MazePerson.cpp
-#        src/cpp_/maze/MyMazer.H
-#        src/cpp_/maze/MyMazer.cpp
-#        src/cpp_/maze/MyMazeMap.H
-#        src/cpp_/maze/MyMazeMap.cpp
-#        src/cpp_/maze/Public.H
-#        src/cpp_/maze/maze.h
-#        src/cpp_/maze/maze.cpp
+        #        #        迷宫
+        #        src/cpp_/maze/MazeMap.h
+        #        src/cpp_/maze/MazeMap.cpp
+        #        src/cpp_/maze/MazePerson.h
+        #        src/cpp_/maze/MazePerson.cpp
+        #        src/cpp_/maze/MyMazer.H
+        #        src/cpp_/maze/MyMazer.cpp
+        #        src/cpp_/maze/MyMazeMap.H
+        #        src/cpp_/maze/MyMazeMap.cpp
+        #        src/cpp_/maze/Public.H
+        #        src/cpp_/maze/maze.h
+        #        src/cpp_/maze/maze.cpp
+
+        ########################################################################################
+
+        #        公有继承
+        src/cpp_/extend_/public_/Person.h
+        src/cpp_/extend_/public_/Person.cpp
+        src/cpp_/extend_/public_/Worker.h
+        src/cpp_/extend_/public_/Worker.cpp
+        src/cpp_/extend_/public_/extendPublicTest.h
+        src/cpp_/extend_/public_/extendPublicTest.cpp
 
 
         )
