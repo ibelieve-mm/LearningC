@@ -30,6 +30,7 @@
 #include "src/cpp_/maze/maze.h"
 #include "src/cpp_/extend_/public_/extendPublicTest.h"
 #include "src/cpp_/extend_/private_/extendPrivateTest.h"
+#include "src/cpp_/extend_/hide/extendHideTest.h"
 
 using namespace std;
 
@@ -98,5 +99,7 @@ int main() {
     // 私有继承
      extendPrivateInvoke();
 
+
+//    extendHideInvoke();
     return 0;
 }

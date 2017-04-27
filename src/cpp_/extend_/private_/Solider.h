@@ -7,6 +7,7 @@
 
 #include "Person.h"
 
+using namespace extend_private;
 namespace extend_private {
     class Solider : private Person {
     public:
